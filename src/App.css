@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap');
+
 .App {
   text-align: center;
+  font-family: 'Big Shoulders Display', cursive;
 }
 
 .App-logo {
@@ -7,16 +10,182 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  background-color: #263238;
+  color: white !important;
+  font-family: 'Big Shoulders Display', cursive;
+}
+
+.header-menu {
+  color: white !important;
+}
+
+h1, h2, p, div {
+  font-family: 'Big Shoulders Display', cursive;
+}
+
+.header-content {
   align-items: center;
   justify-content: center;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
   font-size: calc(10px + 2vmin);
+  color: white !important;
+  font-family: 'Big Shoulders Display', cursive;
+  background-image: url('./images/home.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu-icon {
   color: white;
 }
 
+.link {
+  text-decoration: none;
+  font-family: 'Big Shoulders Display', cursive;
+  color: #37474F;
+  font-weight: bolder;
+}
 .App-link {
   color: #09d3ac;
+}
+
+.timer-card{
+  margin-left: 5px;
+  text-align: center;
+  font-family: 'Big Shoulders Display', cursive;
+  width: 60px;
+  padding: 1em;
+  color: white !important;
+}
+
+.fab {
+  font-family: 'Big Shoulders Display', cursive !important;
+  background-color: rgba(255, 238, 88, 1) !important;
+  font-size: 2rem !important;
+}
+
+.organisation {
+  color: #FFEB3B;
+  font-weight: bold;
+}
+
+.book-button {
+  font-family: 'Big Shoulders Display', cursive !important;
+  font-size: 1em !important;
+  background-color: #E91E63 !important;
+  color: white !important;
+  font-weight: bolder !important;
+}
+
+.book-button:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+.participate {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.event-card-0, .event-card-1, .event-card-2{
+  height: 12em;
+  justify-content: center;
+}
+
+.event-card-0{
+  background: url("./images/sport.jpeg");
+  opacity: 0.8;
+  background-size: cover;
+  color: white !important;
+  font-weight: bolder !important;
+  z-index: 0;
+}
+
+.event-card-1{
+  background-image: url("./images/kultur.jpeg");
+  opacity: 0.8;
+  background-size: cover;
+  color: white !important;
+  font-weight: bolder !important;
+}
+
+.event-card-2{
+  background-image: url('./images/party.jpg');
+  opacity: 0.8;
+  background-size: cover;
+  color: white !important;
+  font-weight: bolder !important
+}
+
+.map {
+  border: 4px solid white;
+  width: 100%;
+}
+
+.ticketCard {
+  text-align: center !important;
+  padding-bottom: 1em;
+  border: 1px solid #FFEB3B;
+}
+
+.action-button {
+  background-color: #E91E63 !important;
+  color: white !important;
+  font-weight: bolder !important;
+}
+
+.footer{
+  background-color: #263238 !important;
+  bottom: 0 !important;
+  width: 100% !important;
+  text-align: center;
+  color: white !important;
+}
+
+.book-formular {
+  border: none;
+  width: 400px;
+  height: 859px;
+}
+
+.program {
+  padding: 5px;
+}
+
+.ads {
+  min-height: 300px;
+}
+
+.about {
+  padding-top: 4em; 
+  padding-bottom: 6em;
+}
+
+a {
+  text-decoration: none !important;
+  color: white;
+}
+
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
 }
