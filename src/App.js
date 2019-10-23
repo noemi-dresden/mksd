@@ -14,6 +14,7 @@ import ReactGA from 'react-ga';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 ReactGA.initialize("UA-150550246-1")
+ReactGA.pageview(window.location.pathname);
 
 class App extends React.Component {
   state = {
