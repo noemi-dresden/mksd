@@ -1,6 +1,6 @@
 export const data = {
     "oragnisation": "MADAGASSICHES KULTUR- UND SPORTTREFFEN IN DEUTSCHLAND",
-    "menu": ["home", "Reservierung", "program", "About"],
+    "menu": ["home", "Reservierung", "program & Spielregeln", "About"],
     "title": "SEI DABEI !",
     "subtitle": "NDAO HIARA HILALAO",
     "eventDay": "2020,02,01",
@@ -46,8 +46,10 @@ export const data = {
     "about": {
         "title":"M.K.S.D.",
         "subtitle":"MADAGASSICHES KULTUR- UND SPORTTREFFEN IN DEUTSCHLAND",
-        "introduction": "Wir sind madagassische Gemeinden in Deutschland, die die Verbundenheit zwischen allen Madagassen in Deutschland sowie in Europa als oberste Ziel haben. M.K.S.D hat dazu den Zweck die Inklusion von Madagassen in Deutschland zu stärken, indem wie unsere Kultur zeigen können und wir eine Sportveranstaltung organisieren.",
-        "body": "M.K.S.D ist eine nicht-politische, nicht lukrative und nicht religiöse Vereinigung der madagassischen Diaspora in Deutschland. Die Mitglieder stehen aus Studierende, Arbeitnehmer, Frauen oder Männer, die ihren Hauptsitz in Deutschland haben."
+        "introduction": "Wir sind madagassische Gemeinden in Deutschland, die die Verbundenheit zwischen allen Madagassen in Deutschland sowie in Europa als oberstes Ziel haben. M.K.S.D hat dazu den Zweck die Inklusion von Madagassen in Deutschland zu stärken, indem wir unsere Kultur zeigen können und wir eine Sportveranstaltung organisieren.",
+        "body": "M.K.S.D ist eine nicht-politische, nicht lukrative und nicht religiöse Vereinigung der madagassischen Diaspora in Deutschland. Die Mitglieder bestehend aus Studierenden, Arbeitnehmern, Frauen und Männern, die ihren Hauptwohnsitz in Deutschland haben.",
+        "target": ["Gegenseitiges Kennenlernen durch Kultur und Sport", "Stärkung der Verbundenheit", "Vertiefung der Zusammengehörigkeit", "Freude an Sportaktivitäten", "Kulturbewusstheit ausleben"],
+        "cultur": ["Neujahrs Begrüßung", "Gemeinsame Mahlzeiten", "Disko mit Musikern", "Tanz und Gesang", "Poesie", "Riba", "Austausch"]
     },
     "ads" : {
         "title" : "Andao Hiara Hilalao e",
@@ -60,31 +62,31 @@ export const data = {
             "list" : [
                 {
                     "time": "7:00 - 8:00",
-                    "event": "Fizarana rano sy fidirana ho an'ny mpilalao"
+                    "event": "Einlass zur Sportveranstaltung"
                 },
                 {
                     "time": "8:00 - 8:30",
-                    "event": "Fanokafana"
+                    "event": "Eröffnung der Sportveranstaltung"
                 },
                 {
                     "time": "9:00 - 12:00",
-                    "event": "Fifanintsanana"
+                    "event":"Sportturnier"
                 },
                 {
                     "time": "12:00 - 13:00",
-                    "event": "Tonokalo sy Dinidinika"
+                    "event": "Poesie & Austausch"
                 },
                 {
                     "time": "13:00 - 14:30",
-                    "event": "1/4 Final Fanatanjahan-tena"
+                    "event":"Halbfinale"
                 },
                 {
-                    "time": "14:00 - 15:00",
-                    "event": "Fiakarana antsehatry ny Mpanankato"
+                    "time": "14:30 - 15:00",
+                    "event":"Auftritt der Musik Künstler"
                 },
                 {
                     "time": "15:00 - 18:00",
-                    "event": "Final"
+                    "event": "Finale und anschließend Siegerehrung"
                 },
             ]
         },
@@ -92,21 +94,21 @@ export const data = {
             "title" : "Hariva",
             "list" : [
                 {
-                    "time": "20:00",
-                    "event": "Fidirana"
+                    "time": "21:00 - 21:30",
+                    "event": "Einlass zur Abendveranstaltung"
                 },
                 {
-                    "time": "21:00",
-                    "event": "Fanombohana"
+                    "time": "21:30 – 22:00",
+                    "event": "Modenschau"
                 },
                 {
-                    "time": "21:30",
-                    "event": "Modeschau Fitafy Malagasy"
+                    "time": "22:00 - 22:30",
+                    "event": "Miss & Mister Germano-Malagasy"
                 },
                 {
-                    "time": "22:00",
-                    "event": "Alim-pandihizana (Gasigasy ka Manja)"
-                },
+                    "time": "Ab 22:30 Uhr",
+                    "event": "Disco mit madagassischem DJ"
+                }
             ]
         }
     ],

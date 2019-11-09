@@ -171,6 +171,9 @@ a {
   color: white;
 }
 
+.impressum {
+  overflow: scroll;
+}
 
 @keyframes shake {
   10%, 90% {

@@ -17,6 +17,24 @@ const About = (props) => {
             <h3>{d.subtitle}</h3>
             <p>{d.introduction}</p>
             <p>{d.body}</p>
+            <Grid container >
+            <Grid item md={6}>
+              <h2>ZIELE</h2>
+              {
+                d.target.map((t, index) => 
+                  <p key={index}>{t}</p>
+                )
+              }
+            </Grid>
+            <Grid item md={6}>
+            <h2>MADAGASSISCHE KULTUR</h2>
+              {
+                d.cultur.map((t, index) => 
+                  <p key={index}>{t}</p>
+                )
+              }
+            </Grid>
+            </Grid>
           </div>
         </Grid>
         <Grid item md={2}>

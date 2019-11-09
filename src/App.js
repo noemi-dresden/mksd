@@ -12,6 +12,7 @@ import Program from './components/program';
 import Contact from './components/contact';
 import ReactGA from 'react-ga';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import CookieConsent from "react-cookie-consent";
 
 ReactGA.initialize("UA-150550246-1")
 ReactGA.pageview(window.location.pathname);
@@ -24,9 +25,7 @@ class App extends React.Component {
   }
 
   componentDidMount(){
-    this.setState({eventDay: '0'+new Date(data.eventDay).getDate() + '.0' +
-    (new Date(data.eventDay).getMonth() + 1) + '.' + new Date(data.eventDay).getFullYear()
-    })
+    this.setState({eventDay: new Date(data.eventDay).toLocaleDateString()})
 
     setInterval(() => {
       this.setState({eventTimer: this.calculateTime(data.eventDay)})
@@ -79,6 +78,11 @@ class App extends React.Component {
   render() {
     return (
       <div>
+        <CookieConsent location="bottom"
+        cookieName="myAwesomeCookieName2"
+        style={{ background: 'rgba(52, 52, 52, 0.6)' }}>
+            This website uses cookies to enhance the user experience.
+        </CookieConsent>
         <Router>
         <header className="App-header">
           <div className="header-menu">
@@ -123,7 +127,10 @@ class App extends React.Component {
             <Route path="/about">
               <About about={data.about} />
             </Route>
-            <Route path="/program">
+            <Route path="/program & Spielregeln">
+              <Program program={data.program} />
+            </Route>
+            <Route path="/impressum">
               <Program program={data.program} />
             </Route>
         </Switch>
