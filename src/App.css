@@ -175,6 +175,11 @@ a {
   overflow: scroll;
 }
 
+.cooperation {
+  color: black;
+  font-size: 2em;
+}
+
 @keyframes shake {
   10%, 90% {
     transform: translate3d(-1px, 0, 0);

@@ -115,5 +115,19 @@ export const data = {
     "contact":{
         "facebook": "https://www.facebook.com/Fihaonambe-ny-Malagasy-eto-Alemana-110783930334141/",
         "email": "fihaonana.malagasy@gmail.com"
-    }
+    },
+    "cooperation":[
+        {
+            "title": "MSD e.V",
+            "web": "http://www.msd-ev.de/"
+        },
+        {
+            "title": "BMA",
+            "web": "https://www.facebook.com/pg/basketballdamenmannschaft/"
+        },
+        {
+            "title": "Poukona Hannovre",
+            "web": ""
+        }
+    ]
 }

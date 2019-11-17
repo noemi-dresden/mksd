@@ -106,7 +106,7 @@ class App extends React.Component {
                 </Button>
               </div>
               <Events events = {data.events} />
-              <Home />
+              <Home data={data.cooperation} />
             </Route>
             <Route exact path="/home">
               <div className="header-content">
@@ -119,7 +119,7 @@ class App extends React.Component {
                 </Button>
               </div>
               <Events events = {data.events} />
-              <Home />
+              <Home data={data.cooperation} />
             </Route>
             <Route path="/Reservierung">
               <Book tickets={data.tickets} ads={data.ads}/>
