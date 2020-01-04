@@ -9,9 +9,9 @@ export const data = {
         {
             "name": "Gast",
             "price": {
-                "sport": "3",
+                "sport": "5",
                 "party": "10",
-                "sportParty": "10"
+                "sportParty": "15"
             },
             "unit": "Prs",
             "comment": "",
@@ -20,9 +20,9 @@ export const data = {
         {
             "name": "Team",
             "price": {
-                "sport":"2",
-                "party":"5",
-                "sportParty": "7"
+                "sport":"5",
+                "party":"7",
+                "sportParty": "12"
             },
             "unit": "Prs",
             "comment": "",
