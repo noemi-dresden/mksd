@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.css';
 import { Grid, Container, Card, CardContent, Fab } from '@material-ui/core';
+import PartyFlyer from '../images/party-flyer.jpg';
 
 class Book extends React.Component {
 
@@ -58,10 +59,10 @@ class Book extends React.Component {
                 </Grid>
               )
               :
-              (<div className="ads">
+              (<div >
                 <h2>{ads.title}</h2>
                 <h3>{ads.introduction}</h3>
-                <p>{ads.body}</p>
+                <img src={PartyFlyer} className="ads" alt="flyer" />
               </div>))
           }
       </Grid>

@@ -53,7 +53,7 @@ export const data = {
     },
     "ads" : {
         "title" : "Andao Hiara Hilalao e",
-        "introduction": "Samy hanorona Equipe isika any amin'ny toerana misy antsika avy",
+        "introduction": "Samy hamorona Equipe isika any amin'ny toerana misy antsika avy",
         "body": "Fifalina, Lalao, Firaisan-kina"
     },
     "program": [
