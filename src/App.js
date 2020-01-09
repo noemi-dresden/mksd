@@ -25,7 +25,8 @@ class App extends React.Component {
   }
 
   componentDidMount(){
-    this.setState({eventDay: new Date(data.eventDay).toLocaleDateString()})
+    let date = new Date(data.eventDay)
+    this.setState({eventDay: date.getDate() + "/" + (date.getMonth() + 1) + "/" + date.getFullYear()})
 
     setInterval(() => {
       this.setState({eventTimer: this.calculateTime(data.eventDay)})
