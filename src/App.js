@@ -10,6 +10,7 @@ import About from './components/about';
 import Book from './components/book';
 import Program from './components/program';
 import Contact from './components/contact';
+import Feedback from './components/feedback';
 import ReactGA from 'react-ga';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import CookieConsent from "react-cookie-consent";
@@ -133,6 +134,9 @@ class App extends React.Component {
             </Route>
             <Route path="/impressum">
               <Program program={data.program} />
+            </Route>
+            <Route path="/feedback">
+              <Feedback></Feedback>
             </Route>
         </Switch>
         </Router>

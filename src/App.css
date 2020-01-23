@@ -182,6 +182,11 @@ a {
   font-size: 2em;
 }
 
+.feedback {
+  background-color: #263238 !important;
+  font-family: 'Big Shoulders Display', cursive;
+}
+
 @keyframes shake {
   10%, 90% {
     transform: translate3d(-1px, 0, 0);
