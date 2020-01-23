@@ -111,7 +111,7 @@ Die Rechtsgrundlage besteht nach Artikel 6  Absatz 1 f DSGVO (Rechtmäßigkeit d
       <AppBar position="static" className="footer">
         <Toolbar>
           <Grid container justify="center" spacing={3}>
-            <Grid item > Made with <Favorite color="secondary"/> by s.Privat </Grid>
+            <Grid item > Made with <Favorite color="secondary"/> by <a href="https://noemi-dresden.github.io/me/">s.Privat </a></Grid>
             <Grid item > <Copyright/> M.K.S.D. {new Date().getFullYear()} </Grid>
             <Grid item > Follow us on <a href={contact.facebook}><Facebook/></a>   </Grid>
             <Grid item > {contact.email} <a href={'mailto:'+contact.email}><Email/></a>   </Grid>

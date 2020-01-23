@@ -61,32 +61,32 @@ export const data = {
             "title": "Tontolo Andro",
             "list" : [
                 {
-                    "time": "7:00 - 8:00",
+                    "time": "9:00",
+                    "event": "Einlass Sportler"
+                },
+                {
+                    "time": "9:30",
                     "event": "Einlass zur Sportveranstaltung"
                 },
                 {
-                    "time": "8:00 - 8:30",
-                    "event": "Eröffnung der Sportveranstaltung"
-                },
-                {
-                    "time": "9:00 - 12:00",
+                    "time": "10:00 - 15:00",
                     "event":"Sportturnier"
                 },
                 {
-                    "time": "12:00 - 13:00",
-                    "event": "Poesie & Austausch"
+                    "time": "15:30 - 16:00",
+                    "event": "Pause & Auftritt der Musik Künstler"
                 },
                 {
-                    "time": "13:00 - 14:30",
+                    "time": "16:30 - 17:30",
                     "event":"Halbfinale"
                 },
                 {
-                    "time": "14:30 - 15:00",
-                    "event":"Auftritt der Musik Künstler"
+                    "time": "17:30 - 18:30",
+                    "event":"Finale"
                 },
                 {
-                    "time": "15:00 - 18:00",
-                    "event": "Finale und anschließend Siegerehrung"
+                    "time": "19:00 - 19:30",
+                    "event": "Verleihung und Uebergabe"
                 },
             ]
         },
@@ -98,16 +98,24 @@ export const data = {
                     "event": "Einlass zur Abendveranstaltung"
                 },
                 {
-                    "time": "21:30 – 22:00",
+                    "time": "22:00",
+                    "event": "Musik"
+                },
+                {
+                    "time": "22:30 - 23:00",
                     "event": "Modenschau"
                 },
                 {
-                    "time": "22:00 - 22:30",
+                    "time": "23:00 - 23:30",
                     "event": "Miss & Mister Germano-Malagasy"
                 },
                 {
-                    "time": "Ab 22:30 Uhr",
-                    "event": "Disco mit madagassischem DJ"
+                    "time": "23:30",
+                    "event": "Preisvergabe Miss&Mister"
+                },
+                {
+                    "time": ".ca 00:00",
+                    "event": "Party mit Malagasy DJs"
                 }
             ]
         }
