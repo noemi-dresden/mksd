@@ -26,15 +26,15 @@ export const coronaData = {
         },
         {
             "question": "Iza no mandray ny fanampiana any Madagasikara?",
-            "answer": " Miara-miasa amin'ny Association Neny ao Antsirabe izahay hatreto, ary zareo no miandraikitra ny fanamboarana sy fizarana ny fitaovana rehetra."
+            "answer": " Miara-miasa amin'ny Association Nenny ao Antsirabe izahay hatreto, ary zareo no miandraikitra ny fanamboarana sy fizarana ny fitaovana rehetra."
         },
         {
             "question": "Olona iza no misitraka ny fanampiana?",
-            "answer": "Hatreto dia olona sahirana ao Antsirabe no misitraka ny fanampiana. Ka ny association neny no manana sy mahita ireo olona sahirana ireo."
+            "answer": "Hatreto dia olona sahirana ao Antsirabe no misitraka ny fanampiana. Ka ny association Nenny no manana sy mahita ireo olona sahirana ireo."
         },
         {
             "question": "Fanamarihana",
-            "answer": "Mila fifampitokisana feno eo amin'ny MKSD sy ny Association Neny, satry zareo no misahana mivantana ny fanampiana. Izahay anefa dia manome toky fa manara-maso araka izay azonay atao."
+            "answer": "Mila fifampitokisana feno eo amin'ny MKSD sy ny Association Nenny, satry zareo no misahana mivantana ny fanampiana. Izahay anefa dia manome toky fa manara-maso araka izay azonay atao."
         },
         {
             "question": "Tatitra",
