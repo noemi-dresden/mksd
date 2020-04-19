@@ -37,6 +37,20 @@ h1, h2, p, div {
   background-size: cover;
 }
 
+.corona-header {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white !important;
+  font-family: 'Big Shoulders Display', cursive;
+  background-color: #37474F;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .menu-icon {
   color: white;
 }
@@ -84,7 +98,7 @@ h1, h2, p, div {
 }
 
 .participate {
-  color: white;
+  color: white !important;
   text-decoration: none;
 }
 
@@ -185,6 +199,10 @@ a {
 .feedback {
   background-color: #263238 !important;
   font-family: 'Big Shoulders Display', cursive;
+}
+
+.corona {
+  color: #37474F;
 }
 
 @keyframes shake {

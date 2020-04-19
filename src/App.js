@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import { data } from './components/data';
+import { coronaData } from './components/corona.data';
 import { List, ListItem, Drawer,  Button, Fab } from '@material-ui/core';
 import { MenuOpenOutlined } from '@material-ui/icons';
 import  Home  from './components/home';
@@ -11,6 +12,7 @@ import Book from './components/book';
 import Program from './components/program';
 import Contact from './components/contact';
 import Feedback from './components/feedback';
+import Corona from './components/corona';
 import ReactGA from 'react-ga';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import CookieConsent from "react-cookie-consent";
@@ -98,17 +100,7 @@ class App extends React.Component {
        
       <Switch>
             <Route exact path="/">
-              <div className="header-content">
-                <h1>{data.title}</h1>
-                <h1>{data.subtitle}</h1>
-                <Fab variant="extended" aria-label="delete" className="fab">{this.state.eventDay} {data.eventCity}</Fab>
-                <Timer eventDay={this.state.eventTimer} />
-                <Button variant="contained" color="secondary" className="book-button">
-                 <Link className="participate" to={'/Reservierung'}>NatÜrlich mache ich mit! ich reserviere</Link>
-                </Button>
-              </div>
-              <Events events = {data.events} />
-              <Home data={data.cooperation} />
+              <Corona data={coronaData}/>
             </Route>
             <Route exact path="/home">
               <div className="header-content">
@@ -122,6 +114,9 @@ class App extends React.Component {
               </div>
               <Events events = {data.events} />
               <Home data={data.cooperation} />
+            </Route>
+            <Route path="/Corona">
+              <Corona data={coronaData}/>
             </Route>
             <Route path="/Reservierung">
               <Book tickets={data.tickets} ads={data.ads}/>

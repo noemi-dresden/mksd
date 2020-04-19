@@ -1,6 +1,6 @@
 export const data = {
     "oragnisation": "MADAGASSICHES KULTUR- UND SPORTTREFFEN IN DEUTSCHLAND",
-    "menu": ["home", "Reservierung", "program & Spielregeln", "About", "Feedback"],
+    "menu": ["home","Reservierung", "program & Spielregeln", "About", "Feedback", "Corona"],
     "title": "SEI DABEI !",
     "subtitle": "NDAO HIARA HILALAO",
     "eventDay": "2020,02,01",
