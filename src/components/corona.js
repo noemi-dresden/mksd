@@ -31,7 +31,7 @@ const Corona = (props) => {
       </div>
       <Container className="corona">
         <h1>Vielen Lieben Dank an alle, die sich schon beteiligt haben</h1>
-        <h2>So weit haben wir zusammen folgendes Geschaft</h2>
+        <h2>So weit, haben wir zusammen folgendes Geschafft</h2>
         {data.done.map((done, index) => (
           <Container key={index}>
             <p>Datum: {done.date}</p>
@@ -60,6 +60,11 @@ const Corona = (props) => {
               </Table>
             </TableContainer>
                   <p>Tanjona manaraka: {data.goal} isa</p>
+                  <p>Ny vola azo amin'izao fotoana dia hitanao 
+                  <Button variant="contained" color="secondary" className="book-button">
+                    <a className="participate" target="_blank" href="https://www.paypal.com/pools/c/8nOeLsRZyz">ato</a>
+                  </Button>
+                  </p>
           </Container>
         ))}
       </Container>
@@ -85,8 +90,6 @@ const Corona = (props) => {
       </Container>
       <Container>
         <h1>Helfen macht glücklich</h1>
-   
-    
         <GridList cellHeight={160} cols={3}>
           { coronaImages.map((image, key)  => (
             <GridListTile key={key} cols={1}>

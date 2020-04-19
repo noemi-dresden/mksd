@@ -1,5 +1,5 @@
 export const coronaData = {
-    "title": "Corona in Madagaskar",
+    "title": "COVID-19 in Madagaskar",
     "subtitle": "MKSD hilft mit",
     "moto": "BIST DU AUCH DABEI?",
     "link":"https://www.paypal.com/pools/c/8nOeLsRZyz",
@@ -35,6 +35,10 @@ export const coronaData = {
         {
             "question": "Fanamarihana",
             "answer": "Mila fifampitokisana feno eo amin'ny MKSD sy ny Association Neny, satry zareo no misahana mivantana ny fanampiana. Izahay anefa dia manome toky fa manara-maso araka izay azonay atao."
+        },
+        {
+            "question": "Tatitra",
+            "answer": "Ho taterinay mazava eto amin'ny tranokala ny fandean'ny fanampiana rehefa vita izany."
         }
     ]
 }
